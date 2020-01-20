@@ -6,4 +6,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: http://dump.tariquldesign.com/sitemap.xml
+Sitemap:  https://topuhit.github.io/stocks/sitemap.xml
