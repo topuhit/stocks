@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dafault-Weekly
-permalink: /Dafault-Weekly/
+title: Default-Weekly
+permalink: /Default-Weekly/
 ---
 
 <br>
