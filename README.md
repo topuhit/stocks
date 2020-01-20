@@ -1,1 +1,2 @@
-# stocks
+# dump
+Tariqul Design Dump 

@@ -1,0 +1,89 @@
+<div class="center">
+    <div class="pagination">
+        <a href="{{ "/" | site_url }}" class="{% if page.title == "home" %}active{% endif %}">1</a>
+        <a href="{{ "2" | relative_url }}" class="{% if page.title == "Page 2" %}active{% endif %}">2</a>
+        <a href="{{ "3" | relative_url }}" class="{% if page.title == "Page 3" %}active{% endif %}">3</a>
+        <a href="{{ "4" | relative_url }}" class="{% if page.title == "Page 4" %}active{% endif %}">4</a>
+        <a href="{{ "5" | relative_url }}" class="{% if page.title == "Page 5" %}active{% endif %}">5</a>
+        <a href="{{ "6" | relative_url }}" class="{% if page.title == "Page 6" %}active{% endif %}">6</a>
+        <a href="{{ "7" | relative_url }}" class="{% if page.title == "Page 7" %}active{% endif %}">7</a>
+        <a href="{{ "8" | relative_url }}" class="{% if page.title == "Page 8" %}active{% endif %}">8</a>
+        <a href="{{ "9" | relative_url }}" class="{% if page.title == "Page 9" %}active{% endif %}">9</a>
+        <a href="{{ "10" | relative_url }}" class="{% if page.title == "Page 10" %}active{% endif %}">10</a>
+        <a href="{{ "11" | relative_url }}" class="{% if page.title == "Page 11" %}active{% endif %}">11</a>
+        <a href="{{ "12" | relative_url }}" class="{% if page.title == "Page 12" %}active{% endif %}">12</a>
+        <a href="{{ "13" | relative_url }}" class="{% if page.title == "Page 13" %}active{% endif %}">13</a>
+        <a href="{{ "14" | relative_url }}" class="{% if page.title == "Page 14" %}active{% endif %}">14</a>
+        </div>
+    <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.facebook.com/topu.hit" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="http://blog.tariquldesign.com/" target="_blank"><i class="fa fa-wordpress w3-hover-opacity"></i></a>
+  <a href="https://www.youtube.com/user/topuhittopu" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+  <a href="https://www.behance.net/topu_hit" target="_blank"><i class="fa fa-behance w3-hover-opacity"></i></a>
+  <a href="https://github.com/topuhit" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/topuhit" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium">Image CDN Powered by <a href="https://cloudinary.com" class="cloudinary" target="_blank">Cloudinary</a></p>
+</footer>
+<!-- PhotoSwipe Hidden Div -->
+<input type="hidden" id="ssp_main_postid" value="165" />
+<input type="hidden" id="ssp_main_cateid" value="1" />
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
+<script>
+    // JScroll script
+    // $('#columns').jscroll();
+
+    var cl = cloudinary.Cloudinary.new({ cloud_name: "topuhit" });
+    // replace 'demo' with your cloud name in the line above 
+    cl.responsive();
+
+</script>
