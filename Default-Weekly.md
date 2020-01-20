@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Default-Daily
-permalink: /Default-Daily/
+title: Dafault-Weekly
+permalink: /Dafault-Weekly/
 ---
 
 <br>
@@ -30,8 +30,9 @@ var i;
 var text = ""
 
 for (i = 0; i < list.length; i++) {
-    text +=   `<img src="https://finviz.com/chart.ashx?t=${list[i]}&ty=c&ta=1&p=d&s=l">
-    
+    text +=   `<img src="https://finviz.com/chart.ashx?t=${list[i]}&ty=c&ta=0&p=w&s=l">
+
+
     <br>`
   
 }
