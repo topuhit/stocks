@@ -10,14 +10,16 @@
 
 
     <a href="{{ "about" | relative_url }}" class="w3-bar-item w3-button w3-padding-large w3-hide-small {% if page.title == "About" %}active{% endif %}">ABOUT</a>
-    <span class="w3-padding-large w3-right">Tariqul Design Dump / a site for depositing garbage. </span>
+ 
   </div>
 </div>
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="{{ "2" | relative_url }}" class="w3-bar-item w3-button w3-padding-large {% if page.title == "Page 2" %}active{% endif %}">2</a>
-    <a href="{{ "3" | relative_url }}" class="w3-bar-item w3-button w3-padding-large {% if page.title == "Page 3" %}active{% endif %}">3</a>
 
-    <a href="{{ "about" | relative_url }}" class="w3-bar-item w3-button w3-padding-large {% if page.title == "About" %}active{% endif %}">ABOUT</a>
+    <a href="{{ site.url }}/Default-Daily" class="w3-bar-item w3-button w3-padding-large">Default-Daily</a>
+    <a href="{{ site.url }}/Default-Weekly" class="w3-bar-item w3-button w3-padding-large">Default-Weekly</a>
+    <a href="{{ site.url }}/DSE-Daily" class="w3-bar-item w3-button w3-padding-large">DSE-Daily</a>
+    <a href="{{ site.url }}/DSE-Weekly" class="w3-bar-item w3-button w3-padding-large">DSE-Weekly</a>
+    <a href="{{ "about" | relative_url }}" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
 </div>
 <!-- Main Content for all the images (100 images per page) -->
