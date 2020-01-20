@@ -4,15 +4,6 @@ title: Default-Daily
 permalink: /Default-Daily/
 ---
 
-	<style type="text/css">
-		#output {
-			margin: 0 auto;
-			width: 80%;
-			text-align: center;
-		}
-	</style>
-
-
 
 <div id="output"></div>
 <!-- Load Babel -->
@@ -49,4 +40,14 @@ for (i = 0; i < list.length; i++) {
 
 document.getElementById('output').innerHTML = text;
 </script>
+<style type="text/css">
+			#output {
+			margin: 0 auto;
+			width: 80%;
+			text-align: center;
+		}
+
+</style>
+
+
 
