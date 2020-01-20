@@ -15,7 +15,20 @@ permalink: /DSE-Weekly/
 	var list = [
 
 	"SSSTEEL",
-	"GP"
+	"GP",
+	"ICB",
+	"SQURPHARMA",
+	"NBL",
+	"LHBL",
+	"BANKASIA",
+	"OLYMPIC",
+	"EBL",
+	"PUBALIBANK",
+	"KOHINOOR",
+	"MTB",
+	"ADNTEL",
+	"RINGSHINE",
+
 
 	]
 
