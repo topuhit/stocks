@@ -43,7 +43,6 @@ document.getElementById('output').innerHTML = text;
 <style type="text/css">
 			#output {
 			margin: 0 auto;
-			width: 80%;
 			text-align: center;
 		}
 
