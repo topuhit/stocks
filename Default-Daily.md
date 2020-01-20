@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Page 2
-permalink: /2/
+title: Default-Daily
+permalink: /Default-Daily/
 ---
 
 	<style type="text/css">
