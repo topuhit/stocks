@@ -19,7 +19,7 @@ var i;
 var text = "";
 
 for (i = 0; i < list.length; i++) {
-    text +=   `
+    text +=   `<h1>${list[i]}</h1><br>
     <img src="https://www.amarstock.com/Chart/draw?Code=${list[i]}&OVER=BB(20,2);OverlayV!;();&IND=AreaRSI(14);MACD(12,26,9);&Size=1200*700&cg=1&Cycle=Day1&Start=20190721&End=20200121&Width=1&type=3&bg=white&upColor=Darkgreen&downColor=Red&grid=0&sv=1&dataType=1">
     
     <br>`
