@@ -26,7 +26,7 @@ var i;
 var text = "";
 
 for (i = 0; i < list.length; i++) {
-    text +=   `
+    text +=   `<h1>${list[i]}</h1><br>
     <img src="https://www.amarstock.com/Chart/draw?Code=${list[i]}&OVER=OverlayV!%3B&IND=&Size=600*750&cg=1&Cycle=Week1&Width=1&type=3&bg=white&upColor=Darkgreen&downColor=Red&grid=0&sv=1&dataType=1&X=undefined&Y=undefined">
     
     <br>`
