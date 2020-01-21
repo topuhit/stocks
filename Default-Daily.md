@@ -12,19 +12,7 @@ permalink: /Default-Daily/
 <!-- Your custom script here -->
 <script type="text/babel">
 
-	var list = [
-
-	"AAPL","ACB","AMD","APOG","APPS",
-	"BABA","BYND","COST","CRM","COST",
-	"DFS","DIS","DLTR","DOCU","FB","FDX","GOOG","JD",
-	"KMX",
-	"LYFT","MDB","MLHR","MSFT","NFLX","NVDA","NIO",
-	"PCG","PM","ROKU","SHOP","SNAP","SPOT","SPY",
-	"TEAM","TEVA","TIF","TLT","TSLA","TSM","TWLO","TWTR",
-	"UBER","UGAZ","WORK","XLF","ZM","Z",
-
-	]
-
+	var list = ["AAPL","ACB","AMD","APOG","APPS","ARE","ATHM","BABA","BRC","BYND","CGC","CHKP","COST","CRM","CRWD","DFS","DIS","DLTR","DOCU","FB","FDX","FSLR","FTNT","GLD","GM","GOOG","IWM","JD","KMX","KSS","LK","LYFT","MDB","MLHR","MSFT","NFLX","NIO","NLOK","NVDA","PCG","PINS","PM","ROKU","SHOP","SNAP","SPOT","SPY","TEAM","TEVA","TIF","TLT","TSCO","TSLA","TSM","TUFN","TWLO","TWTR","UBER","UGAZ","WORK","XLF","Z","ZM","ZS"]
 var i;
 
 var text = ""
