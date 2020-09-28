@@ -17,7 +17,7 @@ var i;
 var text = ""
 
 for (i = 0; i < list.length; i++) {
-    text +=   `<a href="https://finviz.com/quote.ashx?t=${list[i]}" target="_blank"><h4>${list[i]}</h4><br> <img src="https://www.advfn.com/p.php?pid=staticchart&s=N%5E${list[i]}&t=37&p=0&dm=1&vol=0&width=640&height=360&min_pre=330&min_after=240" class="padding"></a>
+    text +=   `<a href="https://finviz.com/quote.ashx?t=${list[i]}" target="_blank">${list[i]}<img src="https://www.advfn.com/p.php?pid=staticchart&s=N%5E${list[i]}&t=37&p=0&dm=1&vol=0&width=640&height=360&min_pre=330&min_after=240" class="padding"></a>
     
     `
   
