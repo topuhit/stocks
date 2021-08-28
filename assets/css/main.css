@@ -4,11 +4,14 @@ h1 {
     font-weight: bold;
 }
 
-.menu-style {
+.menu-style,.menu-style:hover,.menu-style:visited {
 	background-color: antiquewhite;
     padding: 5px;
     border-radius: 3px;
     font-family: Helvetica;
     font-weight: 300;
     line-height: 2em;
+    text-decoration: none;
+    color: black;
 }
+
