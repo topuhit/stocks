@@ -19,7 +19,7 @@ var text = ""
 
 
 for (i = 0; i < list.length; i++) {
-    text +=   `<img src="https://api.nasdaqomx.wallst.com/api/chart?display=mountain&symbol=${list[i]}&scale=linear&duration=5dy&frequency=1min&gridLine=h&bgColor=eff2f5&lineColor=0000a0&fillcolor=aabaf2|eff2f5&width=800&height=400&bdr=2&volume=0&fillOpacity=100">
+    text +=   `<img src="https://api.nasdaqomx.wallst.com/api/chart?display=mountain&symbol=${list[i]}&scale=linear&duration=5dy&frequency=1min&gridLine=h&bgColor=eff2f5&lineColor=0000a0&fillcolor=aabaf2|eff2f5&width=800&height=400&bdr=2&volume=0&fillOpacity=100" width="800" height="400">
     
     <br>`
   
