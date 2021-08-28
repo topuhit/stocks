@@ -1,2 +1,3 @@
-# dump
-Tariqul Design Dump 
+# Stocks
+Stocks Chart
+[https://topuhit.github.io/stocks/] Website
