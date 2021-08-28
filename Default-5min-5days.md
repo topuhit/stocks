@@ -12,7 +12,7 @@ permalink: /Default-5min-5days/
 <!-- Your custom script here -->
 <script type="text/babel">
 
-	var list = ["AAPL","ACB","AMD","APOG","APPS","ARE","ATHM","BABA","BRC","BYND","CGC","CHKP","COST","CRM","CRWD","DFS","DIS","DLTR","DOCU","FB","FDX","FSLR","FTNT","GLD","GM","GOOG","IWM","JD","KMX","KSS","LK","LYFT","MDB","MLHR","MSFT","NFLX","NIO","NLOK","NVDA","PCG","PINS","PM","ROKU","SHOP","SNAP","SPOT","SPY","TEAM","TEVA","TIF","TLT","TSCO","TSLA","TSM","TUFN","TWLO","TWTR","UBER","UGAZ","WORK","XLF","Z","ZM","ZS"]
+	var list = ["AAPL","ACB","AMD","APOG","APPS","ARE","ATHM","BABA","BRC","BYND","CGC","CHKP","COST","CRM","CRWD","DFS","DIS","DLTR","DOCU","FB","FDX","FSLR","FTNT","GLD","GM","GOOG","IWM","JD","KMX","KSS","LYFT","MDB","MLHR","MSFT","NFLX","NIO","NLOK","NVDA","PCG","PINS","PM","ROKU","SHOP","SNAP","SPOT","SPY","TEAM","TEVA","TSCO","TSLA","TSM","TUFN","TWLO","TWTR","UBER","XLF","Z","ZM","ZS"]
 var i;
 
 var text = ""
