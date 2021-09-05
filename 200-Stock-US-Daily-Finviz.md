@@ -16,9 +16,7 @@ var i;
 
 $.get( "https://topuhit.github.io/stocks/assets/stock-list.json", function( data ) {
  list = data;
-});
-
-
+ 
 var text = ""
 
 for (i = 0; i < list.length; i++) {
@@ -30,6 +28,9 @@ for (i = 0; i < list.length; i++) {
 
 
 document.getElementById('output').innerHTML = text;
+});
+
+
 </script>
 
 <style type="text/css">
