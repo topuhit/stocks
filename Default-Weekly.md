@@ -14,7 +14,7 @@ permalink: /Default-Weekly/
 
 
 $.get( "https://topuhit.github.io/stocks/assets/stock-list.json", function( data ) {
-console.log(data.length())
+console.log(data.length)
 var i;
 
 var text = ""
