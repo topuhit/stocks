@@ -20,7 +20,7 @@ $.get( "https://topuhit.github.io/stocks/assets/stock-list.json", function( data
 var text = ""
 
 for (i = 0; i < data.length; i++) {
-    text +=   `<a href="https://finviz.com/quote.ashx?t=${data[i]}" target="_blank"> <img src="https://finviz.com/chart.ashx?t=${list[i]}&ty=c&ta=1&p=d&s=l" class="padding"></a>
+    text +=   `<a href="https://finviz.com/quote.ashx?t=${data[i]}" target="_blank"> <img src="https://finviz.com/chart.ashx?t=${data[i]}&ty=c&ta=1&p=d&s=l" class="padding"></a>
     
     `
   
