@@ -15,7 +15,7 @@ var list ;
 var i;
 
 $.get( "https://topuhit.github.io/stocks/assets/stock-list.json", function( data ) {
- list = JSON.Parse(data);
+ list = data;
 });
 
 
