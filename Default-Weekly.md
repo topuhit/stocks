@@ -20,10 +20,7 @@ var i;
 var text = ""
 
 for (i = 0; i < data.length; i++) {
-    text +=   `<img src="https://finviz.com/chart.ashx?t=${data[i]}&ty=c&ta=0&p=w&s=l">
-
-
-    <br>`
+    text +=   `<a href="https://finviz.com/quote.ashx?t=${data[i]}" target="_blank">  <img src="https://finviz.com/chart.ashx?t=${data[i]}&ty=c&ta=0&p=w&s=l"></a><br>`
   
 }
 
