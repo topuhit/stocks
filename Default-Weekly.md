@@ -12,14 +12,15 @@ permalink: /Default-Weekly/
 <!-- Your custom script here -->
 <script type="text/babel">
 
-	var list = ["AAPL","ACB","AMD","APOG","APPS","ARE","ATHM","BABA","BRC","BYND","CGC","CHKP","COST","CRM","CRWD","DFS","DIS","DLTR","DOCU","FB","FDX","FSLR","FTNT","GLD","GM","GOOG","IWM","JD","KMX","KSS","LK","LYFT","MDB","MLHR","MSFT","NFLX","NIO","NLOK","NVDA","PCG","PINS","PM","ROKU","SHOP","SNAP","SPOT","SPY","TEAM","TEVA","TIF","TLT","TSCO","TSLA","TSM","TUFN","TWLO","TWTR","UBER","UGAZ","WORK","XLF","Z","ZM","ZS"]
-	
+
+$.get( "https://topuhit.github.io/stocks/assets/stock-list.json", function( data ) {
+
 var i;
 
 var text = ""
 
-for (i = 0; i < list.length; i++) {
-    text +=   `<img src="https://finviz.com/chart.ashx?t=${list[i]}&ty=c&ta=0&p=w&s=l">
+for (i = 0; i < data.length; i++) {
+    text +=   `<img src="https://finviz.com/chart.ashx?t=${data[i]}&ty=c&ta=0&p=w&s=l">
 
 
     <br>`
@@ -28,6 +29,9 @@ for (i = 0; i < list.length; i++) {
 
 
 document.getElementById('output').innerHTML = text;
+
+});
+
 </script>
 <style type="text/css">
 			#output {
